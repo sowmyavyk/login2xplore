@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student data form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/is/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <form>
+        <label for="roll_no">Roll No:</label>
+        <input type="text" name="roll_no" required><br><br>
+
+        <label for="full_name">Full Name:</label>
+        <input type="text" name="full_name" required><br><br>
+
+        <label for="class">Class:</label>
+        <input type="text" name="class" required><br><br>
+
+        <label for="birth_date">Birth Date:</label>
+        <input type="date" name="birth_date" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea name="address" required></textarea><br><br>
+
+        <label for="enrollment_date">Enrollment Date:</label>
+        <input type="date" name="enrollment_date" required><br><br>
+    <div class="form-group text-center">
+        <button type="button" class="btn btn-lg btn-primary" id="save" onclick="saveData()" disabled>Save</button>
+        <button type="button" class="btn btn-lg btn-primary" id="change onclick="changeData() disabled>Change</button>
+        <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="resetForm()" disabled>Reset</button>
+    </div>
+</form>
+
+    </div>
+    <script type="text/javascript" src="http://login2explore.com/indb/resources/js/0.0.3/ipdb-commons.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
